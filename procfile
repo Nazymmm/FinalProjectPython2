@@ -1,0 +1,2 @@
+release: python manage.py migrate
+web:gunicorn FinalProjectPython2.wsgi --log-file=-
